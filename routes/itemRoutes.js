@@ -7,6 +7,6 @@ router.get('/menu/:menuId', itemController.getItemsByMenu);//working
 router.post('/', itemController.createItem);//working
 router.put('/:id', itemController.updateItem);//working
 router.get('/:id', itemController.getItemById);//working
-router.delete('/:id', itemController.deleteItem);
+router.delete('/:id', itemController.deleteItem);//working
 
 module.exports = router;
